@@ -1,0 +1,43 @@
+.RichText {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.RichText img {
+  width: 100%;
+  /*margin-top: 8px;*/
+  margin-bottom: 5px;
+}
+
+.RichText h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.RichText h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.RichText blockquote {
+  display: block;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #6b7a8c;
+  border-left: 4px solid #cfd8e6;
+}
+
+.RichText pre{
+  display: block;
+  font-family: monospace;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
